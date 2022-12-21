@@ -1,9 +1,8 @@
-<main style="background: white; color: #22A39F; font-weight: 600; font-size: 16px">
-    <div id="header" style="display: flex; flex-direction: column; align-items: center; padding: 0 0 20px">
-        <img src="https://media.giphy.com/media/CiC5N2o57QVmLInd4J/giphy.gif" height="110px"/>
-        Financial calculator
-    </div>
-</main>
+<div id="header" style="align-items: center">
+    <img src="https://media.giphy.com/media/CiC5N2o57QVmLInd4J/giphy.gif" height="110px"/>
+</div>
+
+### Financial calculator
 
 --- 
 ### To launch localy:
