@@ -81,7 +81,7 @@ function doGlobalOperation() {
         const highPriorityOp = doOperation(number_2_1, number_2_2, operation_2, 10);
 
         let res;
-        if (operation_23 === '*' || operation_23 === '/') {
+        if ((operation_23 === '*' || operation_23 === '/') && (operation_12 === '+' || operation_12 === '-') {
             const op23 = doOperation(highPriorityOp, number_3, operation_23, 10);
             res = doOperation(number_1, op23, operation_12, 10);
         } else {
