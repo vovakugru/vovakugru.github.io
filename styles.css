@@ -58,6 +58,10 @@ body {
     height: 100vh;
 
     background: #434242;
+    
+    background-image: radial-gradient(#fff 5%, transparent 23%);
+    background-position: 0 0;
+    background-size: 4px 4px;
 
     overflow: hidden;
 }
