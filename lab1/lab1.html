@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab1</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <a href="../index.html">назад</a> ИИС лаба 1
+</header>
+<main class="container" id="lab1">
+    <p>Я хочу знать</p>
+    <select tabindex="1" name="type" id="type" class="rounding">
+        <option value="0">...?</option>
+        <option value="1">какие рядом блоки руды</option>
+        <option value="2">что мне выпадет</option>
+    </select>
+</main>
+<div class="separator"></div>
+<main>
+    <div class="container visible" id="_w">
+        <p>Мир генерации:</p>
+        <select name="world" id="w" class="rounding">
+            <option value="" selected></option>
+            <option value="1">Верхний мир</option>
+            <option value="2">Нижний мир</option>
+        </select>
+    </div>
+    <div class="container hidden" id="_uw">
+        <p>Редкость:</p>
+        <select name="option" id="uw" class="rounding">
+            <option value="" selected></option>
+            <option value="1">Высокая</option>
+            <option value="2">Обычная</option>
+            <option value="3">Редкая</option>
+            <option value="4">Очень редкая</option>
+        </select>
+    </div>
+    <div class="container hidden" id="_uws">
+        <p>Высота генерации:</p>
+        <select name="option" id="uws" class="rounding">
+            <option value="" selected></option>
+            <option value="1">от -64 до 320</option>
+            <option value="2">от -16 до 112</option>
+        </select>
+    </div>
+    <div class="container hidden" id="_uwg">
+        <p>Высота генерации:</p>
+        <select name="option" id="uwg" class="rounding">
+            <option value="" selected></option>
+            <option value="1">от -64 до 32</option>
+            <option value="2">от -16 до 320</option>
+        </select>
+    </div>
+    <div class="container hidden" id="_dw">
+        <p>Редкость:</p>
+        <select name="option" id="dw" class="rounding">
+            <option value="" selected></option>
+            <option value="1">Высокая</option>
+            <option value="2">Обычная</option>
+            <option value="3">Очень редкая</option>
+        </select>
+    </div>
+    <div class="container hidden" id="_p">
+        <p>Кирка:</p>
+        <select name="pickaxe" id="p" class="rounding">
+            <option value="" selected></option>
+            <option value="1">Деревянная</option>
+            <option value="2">Каменная</option>
+            <option value="3">Железная</option>
+            <option value="4">Алмазная</option>
+        </select>
+    </div>
+    <span class="result hidden" id="result"></span>
+</main>
+<footer>
+    <span>Полотнюк Владимир</span>
+    <span>Минск, 2022</span>
+</footer>
+
+<script src="./script1.bundle.js"></script>
+
+</body>
+</html>
