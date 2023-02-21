@@ -108,6 +108,10 @@ footer {
     margin: 8px;
 }
 
+.main {
+    gap: 10px;
+}
+
 header {
     flex-direction: row;
     gap: 24px;
